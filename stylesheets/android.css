@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Android;
+    src: url(fonts/Android/idroid.otf);
+}
+
+* {
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #DEDCBB;
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centralize {
+    display: block;
+    margin: auto;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+}
+
+.link {
+    background-color: #47f18e;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link::after {
+    content: "📎";
+}
