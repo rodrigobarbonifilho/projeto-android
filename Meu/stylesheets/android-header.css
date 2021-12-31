@@ -16,8 +16,8 @@ header {
 .header-p {
     text-align: center;
     margin: auto;
+    max-width: 600px;
     margin-bottom: 0.5em;
-    width: 370px;
     font-weight: normal;
 }
 
